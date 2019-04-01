@@ -19,11 +19,11 @@ export default function ExpenseChartSection ({ budgetItems }) {
     <MainSection>
       <PageHeader>Budget Chart</PageHeader>
       <ExpenseCharts budgetItems={ budgetItems } type={ selectedChartType } />
-      <StyledButton onClick={ onSetChart.bind(this, 'line') }>
-        Line Chart
-      </StyledButton>
       <StyledButton onClick={ onSetChart.bind(this, 'radial') }>
         Radial Chart
+      </StyledButton>
+      <StyledButton onClick={ onSetChart.bind(this, 'line') }>
+        Line Chart
       </StyledButton>
     </MainSection>
   )

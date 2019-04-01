@@ -29,6 +29,7 @@ export const MainSection = styled.section`
   padding: 30px;
   background-color: ${themeColors.secondary}
   border-radius: 5px;
+  overflow: auto;
 `;
 
 export const PageHeader = styled.h1`
@@ -39,4 +40,5 @@ export const StyledButton = styled.button`
   font-size: 14px;
   height: 30px;
   box-sizing: border-box;
+  margin: 0 4px;
 `;
